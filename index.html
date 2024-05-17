@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizApp</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4b54324457.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class = "frontPage quizApp">
+        <div class="img">
+            <img src="img/questions.svg" alt="">
+        </div>
+        <div class="text">
+            <h3>1. Quiz App With Fixed Time</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quam minima dolore facere magnam porro alias impedit cumque minus beatae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. ghgh kjkhj fhgdgh jklj hfth gkg </p>
+            <h3>2. Quiz App With Fixed Time</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quam minima dolore facere magnam porro alias impedit cumque minus beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias natus nisi unde veritatis eum sint corporis dolor modi</p>
+        </div>
+        <div class= "exitStart Btn">
+            <button class="exit leftBtn">Exit quiz</button>
+            <button class="start rightBtn">Start Quiz</button>  
+        </div>
+    </div>
+    <div class="rulesBox quizApp">
+       <div class="rulesTitle">Some Rules of this Quiz</div>
+        <div class="rulesList">
+            <ol>
+                <li>You will have only <span style="color:red">15 Seconds</span> per each question.</li>
+                <li>Once you select your answer, it can't be undone.</li>
+                <li>You can't select any option once time goes off.</li>
+                <li>You can't exit from the quiz while playing.</li>
+                <li>You will get points on the basis of you correct answer.</li>
+            </ol>
+        </div>
+        <div class="exitContinue Btn">
+            <button class="exit leftBtn">Exit Quiz</button> 
+            <button class="continue rightBtn">Continue</button>
+        </div>
+    </div> 
+    
+    <div class= "questionBox quizApp">
+        <header class="questionBoxHeader">
+            <div class="startExam">Start Exam</div>
+            <div class="timeCount">
+                <div class="timeLeft">Time Left</div>
+                <div class="seconds"></div>
+            </div>
+            <div class="timeLines"></div>
+        </header>
+        <div class="questionSection">
+            <div class="question"></div>
+            <div class="fourOptions"></div>
+        </div>
+        <hr>
+        <div class= "nextQuestionBtn Btn">
+            <div class="footNote"></div>
+            <button class="nextQuestion rightBtn">Next Ques</button>  
+        </div>
+    </div>
+    <div class="resultBox quizApp">
+        <div class="resultImg img">
+            <img src="img/winners.svg" alt="">
+        </div>
+        <div class="completeText">You Have Finished This Exam</div>
+        <div class="scoreText"></div>
+        <div class="restartQuitBtn Btn">
+            <button class="restartBtn leftBtn">Restart Q</button> 
+            <button class="quitBtn rightBtn">Quit Quiz</button>
+        </div>
+    </div>
+    
+    <script src= "js/script.js"></script> 
+    <script src= "js/question.js"></script>
+</body>
+</html>
